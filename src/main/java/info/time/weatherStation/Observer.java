@@ -4,9 +4,9 @@ public interface Observer {
 
     /**
      * Atualiza os observadores com os parâmetros, temperatura, humidade e pressão
-     * @param temp
-     * @param humidity
-     * @param pressure
+     * @param temp temperatura
+     * @param humidity Humidade
+     * @param pressure Pressão
      */
-    public void update(float temp, float humidity, float pressure);
+    void update(float temp, float humidity, float pressure);
 }
